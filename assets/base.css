@@ -3155,6 +3155,11 @@ details-disclosure > details {
     height: 100%;
   }
 
+  .animate--cascade-off {
+    opacity: 1;
+    animation: none;
+  }
+
   /* Turn off animations if JS is turned off. */
   .no-js .scroll-trigger--active.animate--fade-in,
   .no-js .scroll-trigger--active.animate--slide-in {
